@@ -24,6 +24,10 @@
 		A273B6001E2F360000809C45 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273B5FF1E2F360000809C45 /* LoginPage.swift */; };
 		A273B6021E2F361F00809C45 /* GuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273B6011E2F361F00809C45 /* GuidePage.swift */; };
 		A273B6041E2F364300809C45 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273B6031E2F364300809C45 /* RegisterPage.swift */; };
+		A2D4FC5B1E304A2D00932382 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4FC5A1E304A2D00932382 /* CreateAccountPage.swift */; };
+		A2D4FC5D1E304A4000932382 /* UserInforPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4FC5C1E304A4000932382 /* UserInforPage.swift */; };
+		A2D4FC611E30531B00932382 /* CreateAccountPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D4FC601E30531B00932382 /* CreateAccountPage.xib */; };
+		A2D4FC631E305D6200932382 /* SelectBuddyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4FC621E305D6200932382 /* SelectBuddyPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		A273B5FF1E2F360000809C45 /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		A273B6011E2F361F00809C45 /* GuidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidePage.swift; sourceTree = "<group>"; };
 		A273B6031E2F364300809C45 /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		A2D4FC5A1E304A2D00932382 /* CreateAccountPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
+		A2D4FC5C1E304A4000932382 /* UserInforPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInforPage.swift; sourceTree = "<group>"; };
+		A2D4FC601E30531B00932382 /* CreateAccountPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccountPage.xib; sourceTree = "<group>"; };
+		A2D4FC621E305D6200932382 /* SelectBuddyPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBuddyPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +253,7 @@
 			children = (
 				A273B5B61E2F327500809C45 /* Main.storyboard */,
 				A273B5BB1E2F327500809C45 /* LaunchScreen.storyboard */,
+				A2D4FC601E30531B00932382 /* CreateAccountPage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 				A273B5FF1E2F360000809C45 /* LoginPage.swift */,
 				A273B6011E2F361F00809C45 /* GuidePage.swift */,
 				A273B6031E2F364300809C45 /* RegisterPage.swift */,
+				A2D4FC5A1E304A2D00932382 /* CreateAccountPage.swift */,
+				A2D4FC5C1E304A4000932382 /* UserInforPage.swift */,
+				A2D4FC621E305D6200932382 /* SelectBuddyPage.swift */,
 			);
 			name = Page;
 			sourceTree = "<group>";
@@ -367,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D4FC611E30531B00932382 /* CreateAccountPage.xib in Resources */,
 				A273B5BD1E2F327500809C45 /* LaunchScreen.storyboard in Resources */,
 				A273B5BA1E2F327500809C45 /* Assets.xcassets in Resources */,
 				A273B5B81E2F327500809C45 /* Main.storyboard in Resources */,
@@ -394,15 +407,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D4FC5D1E304A4000932382 /* UserInforPage.swift in Sources */,
 				A273B5F31E2F34B200809C45 /* UserInfo.swift in Sources */,
 				A273B5F51E2F34D900809C45 /* FxOperation.swift in Sources */,
 				A273B5B51E2F327500809C45 /* ViewController.swift in Sources */,
 				A273B6041E2F364300809C45 /* RegisterPage.swift in Sources */,
 				A273B5FE1E2F35D500809C45 /* FxBasePage.swift in Sources */,
+				A2D4FC5B1E304A2D00932382 /* CreateAccountPage.swift in Sources */,
 				A273B5F11E2F349100809C45 /* BaseInfo.swift in Sources */,
 				A273B6021E2F361F00809C45 /* GuidePage.swift in Sources */,
 				A273B5F91E2F351300809C45 /* FxRegister.swift in Sources */,
 				A273B5B31E2F327500809C45 /* AppDelegate.swift in Sources */,
+				A2D4FC631E305D6200932382 /* SelectBuddyPage.swift in Sources */,
 				A273B5FB1E2F356E00809C45 /* FxBaseController.swift in Sources */,
 				A273B6001E2F360000809C45 /* LoginPage.swift in Sources */,
 				A273B5F71E2F350200809C45 /* FxLogin.swift in Sources */,
@@ -648,6 +664,7 @@
 				A273B5D91E2F327500809C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A273B5DA1E2F327500809C45 /* Build configuration list for PBXNativeTarget "TennisTests" */ = {
 			isa = XCConfigurationList;
@@ -656,6 +673,7 @@
 				A273B5DC1E2F327500809C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A273B5DD1E2F327500809C45 /* Build configuration list for PBXNativeTarget "TennisUITests" */ = {
 			isa = XCConfigurationList;
@@ -664,6 +682,7 @@
 				A273B5DF1E2F327500809C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  GuidePage.swift
+//  UserInforPage.swift
 //  Tennis
 //
 //  Created by haiki on 1/18/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GuidePage: FxBasePage {
+class UserInforPage: FxBasePage {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +19,6 @@ class GuidePage: FxBasePage {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func GuideRegister(_ sender: Any) {
-        let page = CreateAccountPage()
-        let navPage = UINavigationController(rootViewController: page)
-        self.present(navPage, animated: true, completion: nil)
     }
     
 

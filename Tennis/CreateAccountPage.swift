@@ -1,5 +1,5 @@
 //
-//  GuidePage.swift
+//  CreateAccountPage.swift
 //  Tennis
 //
 //  Created by haiki on 1/18/17.
@@ -8,23 +8,19 @@
 
 import UIKit
 
-class GuidePage: FxBasePage {
+class CreateAccountPage: FxBasePage {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.title = "Create Account"
+        setNavigationItem(title: "Next", selector: "doRight", isRight: true)
+        setNavigationItem(title: "Cancel", selector: "doBack", isRight: false)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func GuideRegister(_ sender: Any) {
-        let page = CreateAccountPage()
-        let navPage = UINavigationController(rootViewController: page)
-        self.present(navPage, animated: true, completion: nil)
     }
     
 
